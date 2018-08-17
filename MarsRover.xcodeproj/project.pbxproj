@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AEECDB4212685C5004E0B3A /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEECDB3212685C4004E0B3A /* Rover.swift */; };
-		4AEECDB521268610004E0B3A /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEECDB3212685C4004E0B3A /* Rover.swift */; };
 		4AEECDB7212686AA004E0B3A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEECDB6212686AA004E0B3A /* main.swift */; };
 		4AEF3CE1212684200072AF2A /* RoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEF3CE0212684200072AF2A /* RoverTests.swift */; };
 /* End PBXBuildFile section */
@@ -26,7 +24,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4AEECDB3212685C4004E0B3A /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
 		4AEECDB6212686AA004E0B3A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4AEF3CD0212683CC0072AF2A /* MarsRover */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MarsRover; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEF3CDE212684200072AF2A /* MarsRoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsRoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,7 +70,6 @@
 		4AEF3CD2212683CC0072AF2A /* MarsRover */ = {
 			isa = PBXGroup;
 			children = (
-				4AEECDB3212685C4004E0B3A /* Rover.swift */,
 				4AEECDB6212686AA004E0B3A /* main.swift */,
 			);
 			path = MarsRover;
@@ -179,7 +175,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AEECDB7212686AA004E0B3A /* main.swift in Sources */,
-				4AEECDB4212685C5004E0B3A /* Rover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +183,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AEF3CE1212684200072AF2A /* RoverTests.swift in Sources */,
-				4AEECDB521268610004E0B3A /* Rover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
