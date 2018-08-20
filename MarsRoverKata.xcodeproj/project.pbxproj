@@ -3,16 +3,18 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 48;
+	objectVersion = 50;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AEECDB7212686AA004E0B3A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEECDB6212686AA004E0B3A /* main.swift */; };
-		4AEF3CE1212684200072AF2A /* RoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEF3CE0212684200072AF2A /* RoverTests.swift */; };
+		4A5074CF212755820078DE92 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5074CE212755820078DE92 /* main.swift */; };
+		4A5074DC212756E90078DE92 /* MarsRoverKataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5074DB212756E90078DE92 /* MarsRoverKataTests.swift */; };
+		4A5074E2212759AC0078DE92 /* MarsRover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5074E1212759AC0078DE92 /* MarsRover.swift */; };
+		4A5074E421275B000078DE92 /* MarsRover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A5074E1212759AC0078DE92 /* MarsRover.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
-		4AEF3CCE212683CC0072AF2A /* CopyFiles */ = {
+		4A5074C9212755820078DE92 /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
 			dstPath = /usr/share/man/man1/;
@@ -24,22 +26,23 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4AEECDB6212686AA004E0B3A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
-		4AEF3CD0212683CC0072AF2A /* MarsRover */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MarsRover; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AEF3CDE212684200072AF2A /* MarsRoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsRoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		4AEF3CE0212684200072AF2A /* RoverTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoverTests.swift; sourceTree = "<group>"; };
-		4AEF3CE2212684200072AF2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5074CB212755820078DE92 /* MarsRoverKata */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MarsRoverKata; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5074CE212755820078DE92 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		4A5074D9212756E90078DE92 /* MarsRoverKataTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsRoverKataTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A5074DB212756E90078DE92 /* MarsRoverKataTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRoverKataTests.swift; sourceTree = "<group>"; };
+		4A5074DD212756E90078DE92 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4A5074E1212759AC0078DE92 /* MarsRover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarsRover.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		4AEF3CCD212683CC0072AF2A /* Frameworks */ = {
+		4A5074C8212755820078DE92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4AEF3CDB212684200072AF2A /* Frameworks */ = {
+		4A5074D6212756E90078DE92 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -49,118 +52,117 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		4AEF3CC7212683CC0072AF2A = {
+		4A5074C2212755820078DE92 = {
 			isa = PBXGroup;
 			children = (
-				4AEF3CD2212683CC0072AF2A /* MarsRover */,
-				4AEF3CDF212684200072AF2A /* MarsRoverTests */,
-				4AEF3CD1212683CC0072AF2A /* Products */,
+				4A5074CD212755820078DE92 /* MarsRoverKata */,
+				4A5074DA212756E90078DE92 /* MarsRoverKataTests */,
+				4A5074CC212755820078DE92 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		4AEF3CD1212683CC0072AF2A /* Products */ = {
+		4A5074CC212755820078DE92 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				4AEF3CD0212683CC0072AF2A /* MarsRover */,
-				4AEF3CDE212684200072AF2A /* MarsRoverTests.xctest */,
+				4A5074CB212755820078DE92 /* MarsRoverKata */,
+				4A5074D9212756E90078DE92 /* MarsRoverKataTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		4AEF3CD2212683CC0072AF2A /* MarsRover */ = {
+		4A5074CD212755820078DE92 /* MarsRoverKata */ = {
 			isa = PBXGroup;
 			children = (
-				4AEECDB6212686AA004E0B3A /* main.swift */,
+				4A5074CE212755820078DE92 /* main.swift */,
+				4A5074E1212759AC0078DE92 /* MarsRover.swift */,
 			);
-			path = MarsRover;
+			path = MarsRoverKata;
 			sourceTree = "<group>";
 		};
-		4AEF3CDF212684200072AF2A /* MarsRoverTests */ = {
+		4A5074DA212756E90078DE92 /* MarsRoverKataTests */ = {
 			isa = PBXGroup;
 			children = (
-				4AEF3CE0212684200072AF2A /* RoverTests.swift */,
-				4AEF3CE2212684200072AF2A /* Info.plist */,
+				4A5074DB212756E90078DE92 /* MarsRoverKataTests.swift */,
+				4A5074DD212756E90078DE92 /* Info.plist */,
 			);
-			path = MarsRoverTests;
+			path = MarsRoverKataTests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		4AEF3CCF212683CC0072AF2A /* MarsRover */ = {
+		4A5074CA212755820078DE92 /* MarsRoverKata */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AEF3CD7212683CC0072AF2A /* Build configuration list for PBXNativeTarget "MarsRover" */;
+			buildConfigurationList = 4A5074D2212755820078DE92 /* Build configuration list for PBXNativeTarget "MarsRoverKata" */;
 			buildPhases = (
-				4AEF3CCC212683CC0072AF2A /* Sources */,
-				4AEF3CCD212683CC0072AF2A /* Frameworks */,
-				4AEF3CCE212683CC0072AF2A /* CopyFiles */,
+				4A5074C7212755820078DE92 /* Sources */,
+				4A5074C8212755820078DE92 /* Frameworks */,
+				4A5074C9212755820078DE92 /* CopyFiles */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MarsRover;
-			productName = MarsRover;
-			productReference = 4AEF3CD0212683CC0072AF2A /* MarsRover */;
+			name = MarsRoverKata;
+			productName = MarsRoverKata;
+			productReference = 4A5074CB212755820078DE92 /* MarsRoverKata */;
 			productType = "com.apple.product-type.tool";
 		};
-		4AEF3CDD212684200072AF2A /* MarsRoverTests */ = {
+		4A5074D8212756E90078DE92 /* MarsRoverKataTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4AEF3CE3212684200072AF2A /* Build configuration list for PBXNativeTarget "MarsRoverTests" */;
+			buildConfigurationList = 4A5074DE212756E90078DE92 /* Build configuration list for PBXNativeTarget "MarsRoverKataTests" */;
 			buildPhases = (
-				4AEF3CDA212684200072AF2A /* Sources */,
-				4AEF3CDB212684200072AF2A /* Frameworks */,
-				4AEF3CDC212684200072AF2A /* Resources */,
+				4A5074D5212756E90078DE92 /* Sources */,
+				4A5074D6212756E90078DE92 /* Frameworks */,
+				4A5074D7212756E90078DE92 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = MarsRoverTests;
-			productName = MarsRoverTests;
-			productReference = 4AEF3CDE212684200072AF2A /* MarsRoverTests.xctest */;
+			name = MarsRoverKataTests;
+			productName = MarsRoverKataTests;
+			productReference = 4A5074D9212756E90078DE92 /* MarsRoverKataTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		4AEF3CC8212683CC0072AF2A /* Project object */ = {
+		4A5074C3212755820078DE92 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
-				ORGANIZATIONNAME = "iOS Workshop";
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = workshop;
 				TargetAttributes = {
-					4AEF3CCF212683CC0072AF2A = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+					4A5074CA212755820078DE92 = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
-					4AEF3CDD212684200072AF2A = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
+					4A5074D8212756E90078DE92 = {
+						CreatedOnToolsVersion = 9.4.1;
 					};
 				};
 			};
-			buildConfigurationList = 4AEF3CCB212683CC0072AF2A /* Build configuration list for PBXProject "MarsRover" */;
-			compatibilityVersion = "Xcode 8.0";
+			buildConfigurationList = 4A5074C6212755820078DE92 /* Build configuration list for PBXProject "MarsRoverKata" */;
+			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 			);
-			mainGroup = 4AEF3CC7212683CC0072AF2A;
-			productRefGroup = 4AEF3CD1212683CC0072AF2A /* Products */;
+			mainGroup = 4A5074C2212755820078DE92;
+			productRefGroup = 4A5074CC212755820078DE92 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				4AEF3CCF212683CC0072AF2A /* MarsRover */,
-				4AEF3CDD212684200072AF2A /* MarsRoverTests */,
+				4A5074CA212755820078DE92 /* MarsRoverKata */,
+				4A5074D8212756E90078DE92 /* MarsRoverKataTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		4AEF3CDC212684200072AF2A /* Resources */ = {
+		4A5074D7212756E90078DE92 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -170,26 +172,28 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		4AEF3CCC212683CC0072AF2A /* Sources */ = {
+		4A5074C7212755820078DE92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AEECDB7212686AA004E0B3A /* main.swift in Sources */,
+				4A5074CF212755820078DE92 /* main.swift in Sources */,
+				4A5074E2212759AC0078DE92 /* MarsRover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		4AEF3CDA212684200072AF2A /* Sources */ = {
+		4A5074D5212756E90078DE92 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				4AEF3CE1212684200072AF2A /* RoverTests.swift in Sources */,
+				4A5074DC212756E90078DE92 /* MarsRoverKataTests.swift in Sources */,
+				4A5074E421275B000078DE92 /* MarsRover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		4AEF3CD5212683CC0072AF2A /* Debug */ = {
+		4A5074D0212755820078DE92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -199,10 +203,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -210,6 +216,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -218,7 +225,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
@@ -237,7 +244,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -246,7 +253,7 @@
 			};
 			name = Debug;
 		};
-		4AEF3CD6212683CC0072AF2A /* Release */ = {
+		4A5074D1212755820078DE92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -256,10 +263,12 @@
 				CLANG_CXX_LIBRARY = "libc++";
 				CLANG_ENABLE_MODULES = YES;
 				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
 				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -267,6 +276,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -275,7 +285,7 @@
 				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
-				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_IDENTITY = "Mac Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
@@ -288,65 +298,66 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.14;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
-				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
 			name = Release;
 		};
-		4AEF3CD8212683CC0072AF2A /* Debug */ = {
+		4A5074D3212755820078DE92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X24BUTX7Q5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		4AEF3CD9212683CC0072AF2A /* Release */ = {
+		4A5074D4212755820078DE92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = X24BUTX7Q5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
 		};
-		4AEF3CE4212684200072AF2A /* Debug */ = {
+		4A5074DF212756E90078DE92 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = X24BUTX7Q5;
-				INFOPLIST_FILE = MarsRoverTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkshop.MarsRoverTests;
+				INFOPLIST_FILE = MarsRoverKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tw.workshop.MarsRoverKataTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Debug;
 		};
-		4AEF3CE5212684200072AF2A /* Release */ = {
+		4A5074E0212756E90078DE92 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				DEVELOPMENT_TEAM = X24BUTX7Q5;
-				INFOPLIST_FILE = MarsRoverTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkshop.MarsRoverTests;
+				INFOPLIST_FILE = MarsRoverKataTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+					"@loader_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.tw.workshop.MarsRoverKataTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
 			};
 			name = Release;
@@ -354,34 +365,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		4AEF3CCB212683CC0072AF2A /* Build configuration list for PBXProject "MarsRover" */ = {
+		4A5074C6212755820078DE92 /* Build configuration list for PBXProject "MarsRoverKata" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AEF3CD5212683CC0072AF2A /* Debug */,
-				4AEF3CD6212683CC0072AF2A /* Release */,
+				4A5074D0212755820078DE92 /* Debug */,
+				4A5074D1212755820078DE92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AEF3CD7212683CC0072AF2A /* Build configuration list for PBXNativeTarget "MarsRover" */ = {
+		4A5074D2212755820078DE92 /* Build configuration list for PBXNativeTarget "MarsRoverKata" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AEF3CD8212683CC0072AF2A /* Debug */,
-				4AEF3CD9212683CC0072AF2A /* Release */,
+				4A5074D3212755820078DE92 /* Debug */,
+				4A5074D4212755820078DE92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4AEF3CE3212684200072AF2A /* Build configuration list for PBXNativeTarget "MarsRoverTests" */ = {
+		4A5074DE212756E90078DE92 /* Build configuration list for PBXNativeTarget "MarsRoverKataTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				4AEF3CE4212684200072AF2A /* Debug */,
-				4AEF3CE5212684200072AF2A /* Release */,
+				4A5074DF212756E90078DE92 /* Debug */,
+				4A5074E0212756E90078DE92 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 4AEF3CC8212683CC0072AF2A /* Project object */;
+	rootObject = 4A5074C3212755820078DE92 /* Project object */;
 }

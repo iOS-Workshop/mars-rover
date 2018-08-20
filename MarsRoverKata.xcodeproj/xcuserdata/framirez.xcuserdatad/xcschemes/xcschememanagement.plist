@@ -4,12 +4,12 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>MarsRover.xcscheme</key>
+		<key>MarsRoverKata.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>0</integer>
 		</dict>
-		<key>MarsRoverTests.xcscheme</key>
+		<key>MarsRoverKataTests.xcscheme</key>
 		<dict>
 			<key>orderHint</key>
 			<integer>1</integer>
@@ -17,12 +17,12 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>4AEF3CCF212683CC0072AF2A</key>
+		<key>4A5074CA212755820078DE92</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>4AEF3CDD212684200072AF2A</key>
+		<key>4A5074D8212756E90078DE92</key>
 		<dict>
 			<key>primary</key>
 			<true/>
