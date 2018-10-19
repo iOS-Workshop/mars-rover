@@ -1,23 +1,48 @@
-
-public class MarsRover {
-    let x = 0
-    var y = 0
-    var orientation = "N"
+class MarsRover {
     
-    func getPosition() -> Array<Int> {
-        return [x, y]
+    enum CardinalDirection {
+        case north
+        case west
+        case south
+        case east
     }
     
-    func move(inDirection direction: String){
-        
-        if direction == "B"{
-            y = 1
-        } else {
-            y = -1
+    enum Direction {
+        case left
+        case right
+    }
+    
+    var position: [Int]
+    var orientation: CardinalDirection
+    
+    init(_ orientation: CardinalDirection) {
+        self.position = [0,0]
+        self.orientation = orientation
+    }
+    
+    func moveForward(_ step: Int) {
+        switch orientation {
+        case .south:
+            position[1] -= step
+        case .north:
+            position[1] += step
+        case .east:
+            position[0] += step
+        case .west:
+            position[0] -= step
         }
     }
-    //TODO gmartinez continua
-    func turn(inDirection orientation: String){
-        self.orientation = "E"
+    
+    func turn(_ direction: Direction) {
+        switch direction {
+        case .right:
+            if (self.orientation == .north) {
+                self.orientation = .east
+            }
+        case .left:
+            if (self.orientation == .north) {
+                self.orientation = .west
+            }
+        }
     }
 }

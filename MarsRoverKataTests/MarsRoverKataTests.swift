@@ -1,42 +1,52 @@
 import XCTest
 
-class MarsRoverKataTests: XCTestCase {
+class MarsRoverTest: XCTestCase {
     
-    let marsRover = MarsRover()
-    
-    func testCanCreateAMarsRover() {
-        XCTAssertNotNil(marsRover)
+    func testMoveOneStepForward() {
+        let robot:MarsRover = MarsRover(.north)
+        
+        robot.moveForward(1)
+        
+        XCTAssertEqual(robot.position, [0,1])
     }
     
-    func testHasADefaultPosition(){
-        let position = marsRover.getPosition()
-        XCTAssertEqual(position,[0,0])
+    func testStartsFacingEast() {
+        let robot = MarsRover(.east)
+        XCTAssertEqual(robot.orientation, .east)
     }
+    
+    func testMoveOneStepSouth() {
+        let robot = MarsRover(.south)
 
-    func testHasADefaultOrientation() {
-        XCTAssertEqual("N", marsRover.orientation)
+        robot.moveForward(1)
+        
+        XCTAssertEqual(robot.orientation, .south)
+        XCTAssertEqual(robot.position, [0, -1])
     }
     
-    func testMustMoveForward(){
-        let expectedPosition:Array<Int> = [0, -1]
-        marsRover.move(inDirection: "F")
-        let actualPosition = marsRover.getPosition()
-        XCTAssertEqual(expectedPosition, actualPosition)
+    func testMovesOneStepWest() {
+        let robot = MarsRover(.west)
+        
+        robot.moveForward(1)
+        
+        XCTAssertEqual(robot.orientation, .west)
+        XCTAssertEqual(robot.position, [-1, 0])
     }
     
-    func testMustMoveBackwards() {
-        let expectedPosition:Array<Int> = [0, 1]
-        marsRover.move(inDirection: "B")
-        let actualPosition = marsRover.getPosition()
-        XCTAssertEqual(expectedPosition, actualPosition)
+    func testTurnsRight() {
+        let robot = MarsRover(.north)
+        
+        robot.turn(.right)
+        
+        XCTAssertEqual(robot.orientation, .east)
     }
     
-    func testTurnsRight(){
-        marsRover.turn(inDirection: "R")
-        let actualOrientation = marsRover.orientation
-        XCTAssertEqual("E", actualOrientation)
+    func testTurnsLeft() {
+        let robot = MarsRover(.north)
+        
+        robot.turn(.left)
+        
+        XCTAssertEqual(robot.orientation, .west)
     }
     
 }
-
-
