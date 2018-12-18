@@ -1,22 +1,22 @@
 import XCTest
 
 class MarsRoverTest: XCTestCase {
+   
+    func testStartsFacingGivenOrientation() {
+        let robot = MarsRover(initialOrientation: .east)
+        XCTAssertEqual(robot.orientation, .east)
+    }
     
-    func testMoveOneStepForward() {
-        let robot:MarsRover = MarsRover(.north)
+    func testMovesForwardFacingEast() {
+        let robot:MarsRover = MarsRover(initialOrientation: .north)
         
         robot.moveForward(1)
         
         XCTAssertEqual(robot.position, [0,1])
     }
     
-    func testStartsFacingEast() {
-        let robot = MarsRover(.east)
-        XCTAssertEqual(robot.orientation, .east)
-    }
-    
-    func testMoveOneStepSouth() {
-        let robot = MarsRover(.south)
+    func testMovesForwardFacingSouth() {
+        let robot = MarsRover(initialOrientation: .south)
 
         robot.moveForward(1)
         
@@ -24,8 +24,8 @@ class MarsRoverTest: XCTestCase {
         XCTAssertEqual(robot.position, [0, -1])
     }
     
-    func testMovesOneStepWest() {
-        let robot = MarsRover(.west)
+    func testMovesForwardFacingWest() {
+        let robot = MarsRover(initialOrientation: .west)
         
         robot.moveForward(1)
         
@@ -34,7 +34,7 @@ class MarsRoverTest: XCTestCase {
     }
     
     func testTurnsRight() {
-        let robot = MarsRover(.north)
+        let robot = MarsRover(initialOrientation: .north)
         
         robot.turn(.right)
         
@@ -42,7 +42,7 @@ class MarsRoverTest: XCTestCase {
     }
     
     func testTurnsLeft() {
-        let robot = MarsRover(.north)
+        let robot = MarsRover(initialOrientation: .north)
         
         robot.turn(.left)
         

@@ -15,7 +15,7 @@ class MarsRover {
     var position: [Int]
     var orientation: CardinalDirection
     
-    init(_ orientation: CardinalDirection) {
+    init(initialOrientation orientation: CardinalDirection) {
         self.position = [0,0]
         self.orientation = orientation
     }
