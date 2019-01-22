@@ -7,8 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		4AEECDB4212685C5004E0B3A /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEECDB3212685C4004E0B3A /* Rover.swift */; };
-		4AEECDB521268610004E0B3A /* Rover.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEECDB3212685C4004E0B3A /* Rover.swift */; };
 		4AEECDB7212686AA004E0B3A /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEECDB6212686AA004E0B3A /* main.swift */; };
 		4AEF3CE1212684200072AF2A /* RoverTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AEF3CE0212684200072AF2A /* RoverTests.swift */; };
 /* End PBXBuildFile section */
@@ -26,7 +24,6 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		4AEECDB3212685C4004E0B3A /* Rover.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Rover.swift; sourceTree = "<group>"; };
 		4AEECDB6212686AA004E0B3A /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4AEF3CD0212683CC0072AF2A /* MarsRover */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = MarsRover; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AEF3CDE212684200072AF2A /* MarsRoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MarsRoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -73,7 +70,6 @@
 		4AEF3CD2212683CC0072AF2A /* MarsRover */ = {
 			isa = PBXGroup;
 			children = (
-				4AEECDB3212685C4004E0B3A /* Rover.swift */,
 				4AEECDB6212686AA004E0B3A /* main.swift */,
 			);
 			path = MarsRover;
@@ -132,7 +128,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0910;
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 1010;
 				ORGANIZATIONNAME = "iOS Workshop";
 				TargetAttributes = {
 					4AEF3CCF212683CC0072AF2A = {
@@ -179,7 +175,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AEECDB7212686AA004E0B3A /* main.swift in Sources */,
-				4AEECDB4212685C5004E0B3A /* Rover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -188,7 +183,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AEF3CE1212684200072AF2A /* RoverTests.swift in Sources */,
-				4AEECDB521268610004E0B3A /* Rover.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -209,6 +203,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -216,6 +211,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -266,6 +262,7 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
 				CLANG_WARN_EMPTY_BODY = YES;
@@ -273,6 +270,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
@@ -306,7 +304,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WD852BGJA3;
+				DEVELOPMENT_TEAM = X24BUTX7Q5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -318,7 +316,7 @@
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = WD852BGJA3;
+				DEVELOPMENT_TEAM = X24BUTX7Q5;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.0;
@@ -331,7 +329,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = WD852BGJA3;
+				DEVELOPMENT_TEAM = X24BUTX7Q5;
 				INFOPLIST_FILE = MarsRoverTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkshop.MarsRoverTests;
@@ -347,7 +345,7 @@
 				CODE_SIGN_IDENTITY = "Mac Developer";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				DEVELOPMENT_TEAM = WD852BGJA3;
+				DEVELOPMENT_TEAM = X24BUTX7Q5;
 				INFOPLIST_FILE = MarsRoverTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/../Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.iosworkshop.MarsRoverTests;
